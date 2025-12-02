@@ -30,7 +30,6 @@
   padding: 10px 0 40px;
   box-sizing: border-box;
 }
-
     /* MAIN PAGE CONTAINER */
     .layoutBox {
       width: 900px;
@@ -42,13 +41,11 @@
       box-shadow: 6px 6px 6px #5f5f5f;
       box-sizing: border-box;
       transition: background 0.3s ease;
-
       display: flex;
       flex-direction: column;
       gap: 25px;
       margin: 0 auto;
     }
-
     /* LEFT IMAGES + RIGHT BOXES LAYOUT */
     .black-box {
       display: flex;
@@ -96,44 +93,42 @@
       width: 50%;
     }
 
-  
-/* SHARED BOX STYLE (ALL BUTTONS + LINKS) */
-.wiki-box,
-.contact-box,
-.darkMode-box,
-.book-box {
-  border-radius: 1rem;
-  background: #8095b2;
-  padding: 25px;
-  min-height: 5px;
-  width: 70%;
-  box-shadow: 0 8px 5px rgba(0,0,0,0.5);
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: background 0.3s ease;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
+  /* SHARED BOX STYLE (ALL BUTTONS + LINKS) */
+  .wiki-box,
+  .contact-box,
+  .darkMode-box,
+  .book-box {
+    border-radius: 1rem;
+    background: #8095b2;
+    padding: 25px;
+    min-height: 5px;
+    width: 70%;
+    box-shadow: 0 8px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
-/* ⭐ DARK MODE BUTTON — WIDER SIZE */
-button.darkMode-box {
-  width: 100%;          /* <-- Wider than others on purpose */
-  padding: 25px;
-  display: block;
-  background: #8095b2;
-  border-radius: 1rem;
-  border: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  box-shadow: 0 8px 5px rgba(0,0,0,0.5);
-  cursor: pointer;
-}
-
+  /* ⭐ DARK MODE BUTTON — WIDER SIZE */
+  button.darkMode-box {
+    width: 100%;          /* <-- Wider than others on purpose */
+    padding: 25px;
+    display: block;
+    background: #8095b2;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 8px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
 
     /* REMOVE underline on links */
     a.wiki-box,
@@ -153,7 +148,6 @@ button.darkMode-box {
     .dark-mode .layoutBox {
       background: #16213e !important;
       
-     
     }
 
     .dark-mode .wiki-box,
@@ -162,25 +156,22 @@ button.darkMode-box {
     .dark-mode .darkMode-box {
       background: #0f3460 !important;
       box-shadow: 0 8px 5px rgba(0,0,0,0.8) !important;
-      
     }
+  
+     h1 {
+    text-align: center;
+    font-family: monospace;
+    transition: color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 90px;   /* ⭐ MAKE TITLE BIGGER */
+  }
 
-   h1 {
-  text-align: center;
-  font-family: monospace;
-  transition: color 0.3s ease;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 90px;   /* ⭐ MAKE TITLE BIGGER */
-}
-
-
-
-    .footer {
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  color: #ffffff;
-  background: none;
-}
-  </style>
+      .footer {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    background: none;
+  }
+    </style>

@@ -1,4 +1,4 @@
-# 🧠 Neuroscience Webpage
+# 🧠 Neuro Webpage
 
 Neuroscience Project — a custom-built tiny webpage that blends aesthetics, interactivity, and scientific curiosity.
 
